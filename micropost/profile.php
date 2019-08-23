@@ -31,11 +31,10 @@
         <?php
             $sql = "SELECT * FROM `posts` WHERE `postUserID` = '".$_COOKIE['userID']."' ORDER BY `posts`.`postID` DESC";
             $result = $conn->query($sql);
-
             if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
         ?>
-        
+
 
                     <div class="posts">
                     <div class="card">

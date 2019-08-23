@@ -1,6 +1,11 @@
 <?php
     include 'header.php';
 ?>
+<?php
+    if($_COOKIE['userID']){
+        header('Location: index.php');
+    }
+?>
 
 
 <title>Login</title>

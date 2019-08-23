@@ -34,7 +34,8 @@ if ($conn->connect_error) {
 <!-- leyout from here... -->
 
 <div class="header">
-    <div class="logo"><a href="index.php">Shintter</a></div>
+    <!-- <div class="logo"><a href="index.php">Shintter</a></div> -->
+    <div class="logo"><a href="index.php"><img src="images/shintter_2.png" class="logo-img"></a></div>
     <div class="menu">
 
         <?php if(isset($_COOKIE['userID'])): ?>
